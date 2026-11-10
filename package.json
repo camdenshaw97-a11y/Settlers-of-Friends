@@ -1,0 +1,18 @@
+{
+  "name": "settlers-of-friends",
+  "version": "1.0.0",
+  "description": "An island-settling board game played from your phones: build roads, settlements and cities, and trade your way to victory. Every phone carries the whole board, so a TV is optional.",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/play.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4",
+    "ws": "^8.18.0"
+  }
+}
